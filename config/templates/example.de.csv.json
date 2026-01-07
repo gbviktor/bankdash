@@ -1,0 +1,23 @@
+{
+  "id": "example-de-csv",
+  "name": "Example German CSV (Buchungstag/Betrag/Verwendungszweck)",
+  "type": "csv",
+  "csv": {
+    "delimiter": ";",
+    "hasHeader": true,
+    "skipRows": 0,
+    "dateFormats": ["02.01.2006", "2006-01-02"],
+    "decimal": "de",
+    "thousandsSep": ".",
+    "columns": {
+      "bookingDate": "Buchungstag",
+      "valueDate": "Wertstellung",
+      "amount": "Betrag",
+      "currency": "Waehrung",
+      "payee": "Beguenstigter/Zahlungspflichtiger",
+      "memo": "Verwendungszweck",
+      "reference": "Kundenreferenz",
+      "iban": "IBAN"
+    }
+  }
+}

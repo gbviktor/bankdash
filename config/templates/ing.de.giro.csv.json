@@ -1,0 +1,21 @@
+{
+  "id": "ing-de-giro-v1",
+  "name": "ING Germany Girokonto CSV",
+  "type": "csv",
+  "csv": {
+    "delimiter": ";",
+    "hasHeader": true,
+    "headerSearch": true,
+    "skipRows": 0,
+    "dateFormats": ["02.01.2006"],
+    "decimal": "de",
+    "thousandsSep": ".",
+    "columns": {
+      "bookingDate": "Buchung",
+      "valueDate": "Wertstellungsdatum",
+      "payee": "Auftraggeber/Empfänger",
+      "amount": "Betrag",
+      "memoFields": ["Buchungstext", "Notiz", "Verwendungszweck"]
+    }
+  }
+}
